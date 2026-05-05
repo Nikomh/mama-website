@@ -1,0 +1,108 @@
+/* Design Tokens — Huse Mediation & Beratung */
+
+:root {
+  /* ── Colors ── */
+  --color-primary:        #5B7B7A;
+  --color-primary-light:  #EBF2F1;
+  --color-primary-dark:   #3E5857;
+
+  --color-secondary:      #C9956C;
+  --color-secondary-light:#F5E8D8;
+  --color-secondary-dark: #A87044;
+
+  --color-background:     #F7F4EF;
+  --color-surface:        #FFFFFF;
+  --color-surface-alt:    #F0EDE7;
+  --color-surface-teal:   #EBF2F1;
+
+  --color-text:           #2E2826;
+  --color-text-muted:     #7A706B;
+  --color-heading:        #1E1714;
+  --color-border:         #E2DDD5;
+
+  --color-cta:            #C9956C;
+  --color-cta-hover:      #B07B52;
+  --color-cta-text:       #FFFFFF;
+
+  --color-focus:          #5B7B7A;
+  --color-error:          #B5390A;
+  --color-success:        #2D6A4F;
+
+  /* ── Typography ── */
+  --font-heading:  'Lora', georgia, serif;
+  --font-body:     'Inter', system-ui, sans-serif;
+  --font-mono:     'Courier New', monospace;
+
+  --font-size-xs:   0.75rem;
+  --font-size-sm:   0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg:   1.125rem;
+  --font-size-xl:   1.375rem;
+  --font-size-2xl:  1.75rem;
+  --font-size-3xl:  2.25rem;
+  --font-size-4xl:  3rem;
+
+  --font-weight-normal:   400;
+  --font-weight-medium:   500;
+  --font-weight-semibold: 600;
+  --font-weight-bold:     700;
+
+  --line-height-tight:   1.2;
+  --line-height-snug:    1.4;
+  --line-height-normal:  1.6;
+  --line-height-relaxed: 1.75;
+
+  --letter-spacing-tight: -0.02em;
+  --letter-spacing-wide:   0.05em;
+  --letter-spacing-wider:  0.1em;
+
+  /* ── Spacing ── */
+  --space-1:   0.25rem;
+  --space-2:   0.5rem;
+  --space-3:   0.75rem;
+  --space-4:   1rem;
+  --space-5:   1.25rem;
+  --space-6:   1.5rem;
+  --space-8:   2rem;
+  --space-10:  2.5rem;
+  --space-12:  3rem;
+  --space-16:  4rem;
+  --space-20:  5rem;
+  --space-24:  6rem;
+  --space-32:  8rem;
+
+  /* ── Layout ── */
+  --container-sm:  640px;
+  --container-md:  768px;
+  --container-lg:  1024px;
+  --container-xl:  1200px;
+  --container-pad: var(--space-6);
+
+  /* ── Border Radius ── */
+  --radius-sm:   4px;
+  --radius-md:   8px;
+  --radius-lg:   16px;
+  --radius-xl:   24px;
+  --radius-full: 9999px;
+
+  /* ── Shadows ── */
+  --shadow-sm:  0 1px 3px rgba(46, 40, 38, 0.07);
+  --shadow-md:  0 4px 12px rgba(46, 40, 38, 0.08);
+  --shadow-lg:  0 8px 24px rgba(46, 40, 38, 0.10);
+  --shadow-xl:  0 16px 48px rgba(46, 40, 38, 0.12);
+
+  /* ── Transitions ── */
+  --transition-fast:   150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow:   400ms ease;
+
+  /* ── Z-index ── */
+  --z-below:    -1;
+  --z-base:      0;
+  --z-raised:   10;
+  --z-dropdown: 100;
+  --z-sticky:   200;
+  --z-overlay:  300;
+  --z-modal:    400;
+  --z-toast:    500;
+}

@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(update-config)",
+      "Bash(mkdir -p \"/Users/nmh/Desktop/Claude Code x Antigravity/Mama Website/src/images/hero\" \"/Users/nmh/Desktop/Claude Code x Antigravity/Mama Website/src/images/gallery\")",
+      "Bash(cp \"/Users/nmh/Desktop/Claude Code x Antigravity/Mama Website/Website Visuals/Main Page 2.avif\" \"/Users/nmh/Desktop/Claude Code x Antigravity/Mama Website/src/images/hero/hero.avif\")",
+      "Bash(cp \"/Users/nmh/Desktop/Claude Code x Antigravity/Mama Website/Website Visuals/aff302_00a5c7401f1c4fc39b22f623cd05eab4~mv2.jpg\" \"/Users/nmh/Desktop/Claude Code x Antigravity/Mama Website/src/images/gallery/01.jpg\")",
+      "Bash(cp \"/Users/nmh/Desktop/Claude Code x Antigravity/Mama Website/Website Visuals/aff302_2cf5cde884504adc8127fdd80cccabab~mv2.jpg\" \"/Users/nmh/Desktop/Claude Code x Antigravity/Mama Website/src/images/gallery/02.jpg\")",
+      "Bash(cp \"/Users/nmh/Desktop/Claude Code x Antigravity/Mama Website/Website Visuals/aff302_456070a15c99462e9421fd4bb0ce839a~mv2.jpg\" \"/Users/nmh/Desktop/Claude Code x Antigravity/Mama Website/src/images/gallery/03.jpg\")",
+      "Bash(curl -s http://localhost:8080/)",
+      "Bash(curl -s http://localhost:8080/pages/trennungsmediation.html)",
+      "Bash(curl -s http://localhost:8080/pages/faq.html)",
+      "Bash(python3 *)",
+      "Bash(gh auth *)"
+    ]
+  }
+}

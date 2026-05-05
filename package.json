@@ -1,0 +1,21 @@
+{
+  "name": "mama-website",
+  "version": "0.1.0",
+  "description": "Therapist practice website",
+  "private": true,
+  "scripts": {
+    "dev": "live-server src --port=8080 --open=index.html",
+    "lint:css": "stylelint 'src/css/**/*.css'",
+    "lint:js": "eslint src/js",
+    "format": "prettier --write 'src/**/*.{html,css,js}'",
+    "build": "npm run lint:css && npm run lint:js && cp -r src dist",
+    "check": "npm run lint:css && npm run lint:js"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "live-server": "^1.2.2",
+    "prettier": "^3.0.0",
+    "stylelint": "^16.0.0",
+    "stylelint-config-standard": "^36.0.0"
+  }
+}
